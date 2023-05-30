@@ -3,52 +3,30 @@
 ![Screenshot (129)](https://user-images.githubusercontent.com/108757431/224565290-1e91dab1-0c8f-4684-a316-95c31fc2fff1.png)
 ![Screenshot from 2023-03-28 23-24-01](https://user-images.githubusercontent.com/108757431/228326527-5a3e2645-3088-46b7-b605-4de0c54260b6.png)
 
+# Now the deployment part
+This project is deployed in kubernetes cluster using Docker,ArgoCD and Github Action.
+
+To see the ci pipeline click here - https://github.com/Tanmoy037/Furniture-website/actions
+
+After every commit or PR new docker image is get create and push into private DockerHub repository and manifest get updated -
+![Screenshot from 2023-05-30 19-23-48](https://github.com/Tanmoy037/demo-go-gin/assets/108757431/faf17ed3-e228-4780-afd9-e589175724b6)
+
+Manifiest repository link - https://github.com/Tanmoy037/Furniture-website_manifiest.git
+
+After manifest get updated the change get deployed using ArgoCD-
+
+
+![Screenshot from 2023-05-24 19-55-31](https://github.com/Tanmoy037/demo-go-gin/assets/108757431/16c20c20-c61d-4f7b-8cdc-48738b0802c0)
+
+
+![Screenshot from 2023-05-24 19-53-10](https://github.com/Tanmoy037/demo-go-gin/assets/108757431/2e2d294d-6210-437f-8329-cca6d17e97f7)
+
+![Screenshot from 2023-05-24 19-57-17](https://github.com/Tanmoy037/demo-go-gin/assets/108757431/40b201b3-bb37-4c30-858f-8c89e888f96a)
 
 
 
 
-**To run this website you need to do the following tasks:**
-
-1. Install the required dependencies by running the following command in the root directory of the project:
-
-* npm install 
-
-
-2. Install additional dependencies by running the following command in the root directory of the project:
-
-* npm i 
-
-
-3. Change the directory to `backend` using the following command:
-
-* cd backend/ 
-
-
-4. Install the required dependencies for the backend by running the following command:
-
-* npm i 
-
-
-5. Change the directory from 'backend' to previous directory:
-
-* cd ..
-
-
-6. Install `nodemon` again as a development dependency using the following command:
-
-* npm install nodemon --save-dev 
-
-
-7. Start both the frontend and backend servers using the following command in the root directory of the project:
-
-* npm run both 
 
 
 
-**Once you have completed these steps, you should be able to access the Comfy website in your web browser at [http://localhost:3000](http://localhost:3000).**
 
-**Enjoy!**
-
-
-
-**We are open for contributions you can contribute us by creating a issue, then get assigned  to yourself and create Pull request for particular issue.**
