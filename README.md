@@ -14,6 +14,7 @@ After every commit or PR new Docker image get created and pushed into private Do
 ![Screenshot (300)](https://github.com/Tanmoy037/demo-go-gin/assets/108757431/0d8241fe-2137-4dc6-9a23-fc56164f8e9a)
 
 and manifest get updated -
+
 ![Screenshot from 2023-05-30 19-23-48](https://github.com/Tanmoy037/demo-go-gin/assets/108757431/faf17ed3-e228-4780-afd9-e589175724b6)
 
 Manifiest repository link - https://github.com/Tanmoy037/Furniture-website_manifiest.git
